@@ -1,0 +1,30 @@
+# Ultralytics YOLO 🚀, GPL-3.0 license
+
+# Set dataset path for training, validation, testing images with absolute paths
+# path is recommended as absolute to avoid any possible errors
+# path should be a directory containing images
+# labels directory should be in the same directory as images directory
+# Example:
+# dataset 
+# ├── train
+# │   ├── images
+# │   └── labels
+# ├── val
+# │   ├── images
+# │   └── labels
+# ├── test
+# │   ├── images
+# │   └── labels
+# ├── ppe_custom_dataset.yaml
+
+train: C:\Users\Desktop\dataset\train\images 
+val: C:\Users\Desktop\dataset\val\images  
+test: C:\Users\Desktop\dataset\test\images 
+
+# Classes
+names:
+  0: helmet
+  1: nohelmet
+  2: harness
+  3: noharness
+  4: lanyard
